@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    background-color: #240750;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Slab", serif;
+}
+
+.navigation {
+    background-color: #344C64;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__box {
+    background-color: #a08d75;
+    height: 3rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    color: black;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.movie-details {
+    object-fit:scale-down;
+    height: 30vh;
+    width: 95vw;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+    /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.movie-details:hover {
+    /* transform: translate(0.2rem, 0.2rem); */
+    scale: 101%;
+    box-shadow: 5px 5px 5px 5px rgba(21, 20, 20, 0.5);
+}
+
+.movie-details img {
+    height: 100%;
+    width: 18rem;
+    border-radius: 1rem;
+}
+
+.details {
+    height: 100%;
+    width: 35%;
+    margin-left: 1.8rem;
+    border-radius: 1rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.4rem;
+}
+
+.genre {
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+}
+
+.director {
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+}
+
+.cast {
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+}
+
+.rating {
+    font-size: 1.15rem;
+    margin-bottom: 0.7rem;
+}
+
+.synopsis {
+    font-size: 1.1rem;
+}
+
+.cast_photo {
+    margin-left: 2rem;
+}
+
+.cast_photo p {
+    font-size: 2rem;
+}
+
+.images {
+    margin-top: 2rem;
+}
+
+.images img {
+    height: 13rem;
+    width: 13rem;
+}
